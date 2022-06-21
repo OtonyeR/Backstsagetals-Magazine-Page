@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    padding: 20px;
+    transition: all 0.5s ease;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header img {
+    width: 22%;
+}
+
+
+section {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {  
+    text-decoration: underline;
+}
+
+img {
+    margin: auto;
+    width: 30%;
+}
+
+.txt {
+    position: relative;
+    bottom: 20px;
+    font-weight: 700;
+}
+
+.issue6 a {
+    color: #e568ac;
+}
+
+.other a {
+    color: white;
+}
+
+.about {
+    text-align: start;
+    width: 22%;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+}
+
+.cp {
+    font-size: small;
+    text-align: start;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+footer h3:hover {
+    text-decoration: underline;
+}
+
+.mail {
+    justify-self: end;
+}
+
+.bg-color {
+    background-color: #00c1b5;
+}
+
+.bg-color2 {
+    background-color: #ff651a;
+}
+
+.bg-color3 {
+    background-color: #ffbe00;
+}
+
+.bg-color4 {
+    background-color: #1d3fbb;
+}
+
+.bg-color5 {
+    background-color: #e30512;
+}
+
+@media (max-width: 300px) {
+    section {
+        padding: 100px;
+    }
+
+    .issue1 {
+        padding-top: 120px;
+    }
+
+    .issue2 {
+        padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        scroll-snap-type: y mandatory;
+    }
+
+    header img {
+        float: left;
+    }
+
+    section {
+        scroll-snap-align: center;
+        padding: 65px 0px;
+    }
+
+    img {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .about {
+        text-align: center;
+        width: 100%;
+        font-weight: 700;
+        font-size: larger;
+    }
+
+    .cp {
+        font-size: small;
+        text-align: center;
+    }
+    
+    footer {
+        display: block;
+        text-align: center; 
+    }
+
+}
+
+@media (min-width:480px) and (max-width: 950px) {
+    body {
+        scroll-snap-type: y mandatory;
+    }
+
+    header img {
+        float: left;
+    }
+
+    section {
+        scroll-snap-align: center;
+    }
+
+    img {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .txt {
+        font-size: 30px;
+    }
+    
+
+    .about {
+        text-align: start;
+        width: 50%;
+        font-weight: 700;
+        font-size: larger;
+    }
+    
+    .cp {
+        font-size: small;
+        text-align: start;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
